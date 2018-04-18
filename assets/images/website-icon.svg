@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="42px" viewBox="0 0 64 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>website-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="website-icon" transform="translate(1.000000, 1.000000)">
+            <path d="M57.999,34.999 L57.999,3 C57.999,1.344 56.656,0 54.999,0 L7.001,0 C5.345,0 4.001,1.344 4.001,3 L4.001,34.999" id="Fill-118" fill="#FFFFFE" fill-rule="nonzero"></path>
+            <path d="M57.999,33 L57.999,3 C57.999,1.344 56.656,0 54.999,0 L7.001,0 C5.345,0 4.001,1.344 4.001,3 L4.001,33" id="Stroke-119" stroke="#000000" stroke-width="2"></path>
+            <polygon id="Fill-120" fill="#D9D9D9" fill-rule="nonzero" points="7.001 31.001 54.999 31.001 54.999 3 7.001 3"></polygon>
+            <polyline id="Fill-121" fill="#FFFFFE" fill-rule="nonzero" points="44.8 27.239 49.707 24.787 44.8 22.332 44.8 27.239"></polyline>
+            <polygon id="Fill-122" fill="#64FAED" fill-rule="nonzero" points="16.557 27.239 44.8 27.239 44.8 22.332 16.557 22.332"></polygon>
+            <polygon id="Fill-123" fill="#3971FF" fill-rule="nonzero" points="12.294 27.239 16.557 27.239 16.557 22.332 12.294 22.332"></polygon>
+            <path d="M12.294,22.332 L44.8,22.332 L49.707,24.787 L44.8,27.239 L12.294,27.239 L12.294,22.332 Z M16.557,22.6 L16.557,26.676 L16.557,22.6 Z" id="Stroke-124" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-125" fill="#FFFFFF" fill-rule="nonzero" points="12.294 16.891 49.707 16.891 49.707 7.235 12.294 7.235"></polygon>
+            <path d="M12.294,16.891 L49.707,16.891 L49.707,7.235 L12.294,7.235 L12.294,16.891 Z M47.141,10.818 L45.004,10.818 L47.141,10.818 Z" id="Stroke-126" stroke="#000000" stroke-width="2"></path>
+            <path d="M17.395,16.658 L17.395,13.256 M20.795,16.658 L20.796,14.617 M24.198,16.658 L24.198,13.256 M27.599,16.658 L27.599,14.617 M31,16.658 L31,13.256 M34.4,16.658 L34.4,14.617 M37.802,16.658 L37.804,13.256 M41.204,16.658 L41.203,14.617 M44.604,16.658 L44.604,13.256" id="Stroke-127" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path>
+            <polyline id="Fill-128" fill="#D9D9D9" fill-rule="nonzero" points="57.999 40 4.001 40 0.001 35.999 0.001 34.001 24 34.001 26 35.999 36.001 35.999 38 34.001 61.999 34.001 61.999 35.999 57.999 40"></polyline>
+            <polygon id="Stroke-129" stroke="#000000" stroke-width="2" points="57.999 40 4.001 40 0.001 35.999 0.001 34.001 24 34.001 26 35.999 36.001 35.999 38 34.001 61.999 34.001 61.999 35.999"></polygon>
+        </g>
+    </g>
+</svg>
