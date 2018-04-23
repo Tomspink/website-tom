@@ -2898,6 +2898,11 @@ button {
 }
 
 /** Profile image effects---------------------------------------- **/ 
+@media max-width: 767px{
+    .profile-image-container{
+        width: calc(100% - 20px);
+    }
+}
 
 .profile-image-container{
     width: calc(100% - 40px);
@@ -2942,11 +2947,7 @@ button {
     display: none;
 }
 
-@media max-width: 767px{
-    .profile-image-container{
-        width: calc(100% - 20px);
-    }
-}
+
 
 
 @media (max-width: 767px) and (min-width: 576px){
