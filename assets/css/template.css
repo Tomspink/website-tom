@@ -2901,6 +2901,8 @@ button {
 @media max-width: 767px{
     .profile-image-container{
         width: calc(100% - 20px);
+        z-index: 0;
+        position: relative;  
     }
 }
 
