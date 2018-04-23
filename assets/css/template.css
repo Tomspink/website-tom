@@ -2898,7 +2898,7 @@ button {
 }
 
 /** Profile image effects---------------------------------------- **/ 
-@media max-width: 767px{
+@media (max-width: 767px){
     .profile-image-container{
         width: calc(100% - 20px);
         z-index: 0;
