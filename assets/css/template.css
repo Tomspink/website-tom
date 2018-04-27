@@ -3051,7 +3051,12 @@ button {
 /*------------------------------------------------------------------
 [Portfolio filter]
 
+
 */
+.background-blue{
+    background-color: #0A41CC;  
+}
+
 .view-website{
     float: right;
     margin-top: 14px;
