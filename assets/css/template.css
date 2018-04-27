@@ -2442,7 +2442,7 @@ button {
     margin-bottom: 30px;
 }
 .intro-text-container{
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 .intro-name{
     font-size: 15px;
@@ -3006,8 +3006,11 @@ button {
     .about-me-profile-text{
         margin-bottom: 30px;
     }
-    .intro-name-container{
+    .intro-name-container-bottom{
         margin-bottom: 16px;
+    }
+    .intro-name-container-top{
+        margin-bottom: 44px;
     }
     body {
         line-height: 1.6;
