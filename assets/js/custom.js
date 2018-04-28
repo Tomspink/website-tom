@@ -352,7 +352,7 @@
 
 		$('.image-slider').each(function () {
 			$(this).owlCarousel($.extend({
-				dots:     false,
+				dots:     true,
 				nav:      true,
 				center:   true,
 				items:    1,
@@ -360,7 +360,7 @@
 				autoHeight:true,
 				margin:   0,
                 loop:true,
-                  autoWidth:true,
+                  
                   autoplayTimeout:2500,
                   autoplaySpeed:1000,
                   autoplay:true,
