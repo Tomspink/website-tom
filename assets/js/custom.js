@@ -352,13 +352,19 @@
 
 		$('.image-slider').each(function () {
 			$(this).owlCarousel($.extend({
-				dots:     true,
+				dots:     false,
 				nav:      true,
 				center:   true,
 				items:    1,
 				loop:     true,
 				autoHeight:true,
 				margin:   0,
+                loop:true,
+                  autoWidth:true,
+                  autoplayTimeout:2500,
+                  autoplaySpeed:1000,
+                  autoplay:true,
+                  autoplayHoverPause:true,
 				navText: [
 					'<span class="ti-angle-left"></span>',
 					'<span class="ti-angle-right"></span>'
