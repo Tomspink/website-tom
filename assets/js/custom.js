@@ -355,16 +355,15 @@
 				dots:     true,
 				nav:      true,
 				center:   true,
-				items:    1,
+				items:    4,
 				loop:     true,
 				autoHeight:true,
-				margin:   0,
+				margin:   10,
                 loop:true,
+                lazyLoad:true,
+ 
                   
-                  autoplayTimeout:2500,
-                  autoplaySpeed:2500,
-                  autoplay:true,
-                  autoplayHoverPause:true,
+                  
 				navText: [
 					'<span class="ti-angle-left"></span>',
 					'<span class="ti-angle-right"></span>'
