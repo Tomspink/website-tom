@@ -358,7 +358,7 @@
 				items:    1,
 				loop:     true,
 				autoHeight:true,
-				margin:   10,
+				margin:   0,
                 loop:true,
                 lazyLoad:true,
                 lazyLoadEager:true,
