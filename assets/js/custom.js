@@ -361,9 +361,9 @@
 				margin:   0,
                 loop:true,
                   
-                  autoplayTimeout:4500,
-                  autoplaySpeed:4000,
-                  autoplay:true,
+                  autoplayTimeout:500,
+                  autoplaySpeed:500,
+                  autoplay:false,
                   autoplayHoverPause:true,
 				navText: [
 					'<span class="ti-angle-left"></span>',
