@@ -1882,7 +1882,7 @@
      * @public
      */
     Lazy.Defaults = {
-        lazyLoad: false
+        lazyLoad: true
     };
 
     /**
