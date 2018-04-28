@@ -361,7 +361,6 @@
 				margin:   10,
                 loop:true,
                 lazyLoad:true,
-                lazyLoadEager:true,
  
                   
                   
