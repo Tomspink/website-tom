@@ -361,8 +361,7 @@
 				margin:   0,
                 loop:true,
                   
-                  autoplayTimeout:500,
-                  autoplaySpeed:false,
+                  
                   autoplay:true,
                   autoplayHoverPause:true,
 				navText: [
