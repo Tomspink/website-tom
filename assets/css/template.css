@@ -2439,10 +2439,10 @@ button {
 [Hero]
 */
 .intro-name-container{
-    margin-bottom: 30px;
+    margin-bottom: 46px;
 }
 .intro-text-container{
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 .intro-name{
     font-size: 15px;
@@ -3008,6 +3008,9 @@ button {
     }
     .intro-name-container{
         margin-bottom: 16px;
+    }
+    .intro-name-container{
+        margin-bottom: 30px;
     }
     body {
         line-height: 1.6;
