@@ -355,7 +355,7 @@
 				dots:     true,
 				nav:      true,
 				center:   true,
-				items:    4,
+				items:    1,
 				loop:     true,
 				autoHeight:true,
 				margin:   10,
