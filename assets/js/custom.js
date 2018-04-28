@@ -363,7 +363,7 @@
                   
                   autoplayTimeout:500,
                   autoplaySpeed:500,
-                  autoplay:false,
+                  autoplay:true,
                   autoplayHoverPause:true,
 				navText: [
 					'<span class="ti-angle-left"></span>',
