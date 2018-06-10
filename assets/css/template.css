@@ -3179,7 +3179,7 @@ button {
 
 .portfolio-overlay {
     position: absolute;
-    background: rgba(30, 30, 30, .85);
+    background: rgba(00, 62, 198, .96);
     opacity: 0;
     z-index: 1;
     left: 0;
@@ -3195,7 +3195,7 @@ button {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 50%;
+    top: 38%;
     opacity: 0;
     z-index: 1;
     text-align: center;
@@ -3204,17 +3204,22 @@ button {
 }
 
 .portfolio-title {
-    letter-spacing: 3.8px;
-    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-size: 28px;
     color: #fff;
     margin: 0 0 8px;
+    text-align: left;
+    padding-left: 40px;
 }
 
 .portfolio-subtitle {
     color: #fff;
     display: block;
-    font-size: 10px;
-    opacity: .7;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: 400;
 }
 
 .portfolio-link {
@@ -3224,6 +3229,17 @@ button {
     right: 0;
     left: 0;
     top: 0;
+}
+
+.port-arrow{
+    width: 42px;
+    height: 28px;
+    left: 0px;
+    text-align: left;
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+    transition: ease 0.5s;
 }
 
 .portfolio-item:hover .portfolio-wrapper {
