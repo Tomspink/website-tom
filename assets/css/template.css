@@ -1999,7 +1999,25 @@ button {
 #header-text-link:hover{
     color: #64FAED;
     border-bottom: 1px solid #64FAED;
-    
+}
+
+
+@media (min-width: 992px){
+    .menu-item-single{
+        color:#666666;
+    }
+    .menu-item-single.active{
+        color: #0443E0;
+    }
+}
+
+@media (max-width: 991px){
+    .menu-item-single{
+        color:#ffffff;
+    }
+    .menu-item-single.active{
+        color:#a8bbea
+    }
 }
 
 
