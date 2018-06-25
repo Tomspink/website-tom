@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Allow: /tomspink.co.uk/
+
+Sitemap: https://tomspink.co.uk/sitemap.xml
