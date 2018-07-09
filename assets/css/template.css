@@ -3302,12 +3302,14 @@ button {
 .port-arrow{
     width: 42px;
     height: 28px;
+    background-size: auto 100%;
     left: 0px;
     text-align: left;
     display: block;
     margin-left: 40px;
     margin-top: 20px;
     transition: ease 0.5s;
+    background-image: url(../images/icons/port-arrow.svg);
 }
 
 
@@ -3331,6 +3333,7 @@ button {
         margin-left: 2%;
         width: 34px;
         height: 22px;
+        overflow: hidden;
     }
     .portfolio-subtitle {
          padding-left: 3%;
@@ -3369,27 +3372,28 @@ button {
 }
 
 .bottom-info-link{
-    height: 50px;
+    height: 60px;
     background-color: #fff;
     width: 100%;
-    padding: 14px;
+    padding: 19px;
 }
 .mobile-portfolio-title{
     color: #212121;
     font-family: "Montserrat", Arial, serif;
-    font-size: 11px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2.8px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
 }
 .arrow-right{
-    height: 12px;
-    width: 7px;
+    height: 18px;
+    width: 10px;
     float: right;
     top: 50%;
     transform: translateY(-50%);
     position: relative;
     fill: #70D8F0;
+    background-size: auto 100%;
+    background-image: url(../images/icons/arrow-right.svg);
 }
 
 /*
