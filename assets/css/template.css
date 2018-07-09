@@ -2030,6 +2030,12 @@ button {
 .header .brand-light {
     display: none;
 }
+.brand-light{
+    width: 40px;
+}
+.brand-dark{
+    width: 40px;
+}
 
 .header .inner-nav > ul > li > a {
     color: #b7b7b7;
