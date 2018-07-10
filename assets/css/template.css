@@ -1898,6 +1898,11 @@ button {
     height: 58px;
 }
 
+.header-portfolio{
+    background-color: white;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+}
+
 .header .container,
 .header .container-fluid {
     position: relative;
