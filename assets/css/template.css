@@ -4289,6 +4289,16 @@ a[rel~="gallery"]:hover {
 }
 
 
+.sm-twitter{
+    width: 25px;
+    height: 24px;
+    background-image: url(../images/icons/twitter.svg);
+    background-size: auto 100%;
+}
+.sm-twitter:hover{
+    fill: aqua;
+}
+
 .sm-svg:hover{
     fill: #64FAED;
 }
