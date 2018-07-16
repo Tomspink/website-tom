@@ -218,8 +218,8 @@ h1 > a,
 h2 > a,
 h3 > a,
 h4 > a,
-h5 > a,
-h6 > a {
+h3 > a,
+h4 > a {
     color: #212121;
 }
 
@@ -231,10 +231,10 @@ h3 > a:hover,
 h3 > a:focus,
 h4 > a:hover,
 h4 > a:focus,
-h5 > a:hover,
-h5 > a:focus,
-h6 > a:hover,
-h6 > a:focus {
+h3 > a:hover,
+h3 > a:focus,
+h4 > a:hover,
+h4 > a:focus {
     color: #0443E0;
 }
 
@@ -247,8 +247,8 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h3,
+h4 {
     margin: 0 0 20px;
 }
 
@@ -260,10 +260,10 @@ h3,
 .h3,
 h4,
 .h4,
-h5,
-.h5,
-h6,
-.h6 {
+h3,
+.h3,
+h4,
+.h4 {
     font-family: "Montserrat", Arial, serif;
     line-height: 1.4;
     font-weight: 700;
@@ -309,8 +309,8 @@ h4,
     margin: 0 0 15px;
 }
 
-h5,
-.h5 {
+h3,
+.h3 {
     letter-spacing:0.8px;
     font-size: 18px;
     margin: 0 0 10px;
@@ -319,8 +319,8 @@ h5,
     
 }
 
-h6,
-.h6 {
+h4,
+.h4 {
     letter-spacing: 2.2px;
     font-weight: 400;
     font-size: 12px;
@@ -1011,7 +1011,7 @@ button {
     color: #fff;
 }
 
-.pie-chart .chart-text h5 {
+.pie-chart .chart-text h3 {
     display: inline-block;
     margin: 0;
 }
@@ -2620,14 +2620,14 @@ button {
 .module-header h2,
 .module-header h3,
 .module-header h4,
-.module-header h5,
-.module-header h6,
+.module-header h3,
+.module-header h4,
 .module-slides h1,
 .module-slides h2,
 .module-slides h3,
 .module-slides h4,
-.module-slides h5,
-.module-slides h6 {
+.module-slides h3,
+.module-slides h4 {
     text-transform: uppercase;
 }
 
@@ -2655,14 +2655,14 @@ button {
     font-size: 24px;
 }
 
-.module-header h1.h5,
-.module-slides h1.h5 {
+.module-header h1.h3,
+.module-slides h1.h3 {
     letter-spacing: 6px;
     font-size: 14px;
 }
 
-.module-header h1.h6,
-.module-slides h1.h6 {
+.module-header h1.h4,
+.module-slides h1.h4 {
     letter-spacing: 2.8px;
     font-size: 10px;
 }
@@ -2709,13 +2709,13 @@ button {
         font-size: 19.2px;
     }
 
-    .module-slides h1.h5,
-    .module-header h1.h5 {
+    .module-slides h1.h3,
+    .module-header h1.h3 {
         font-size: 12.6px;
     }
 
-    .module-slides h1.h6,
-    .module-header h1.h6 {
+    .module-slides h1.h4,
+    .module-header h1.h4 {
         font-size: 9px;
     }
 
@@ -2754,13 +2754,13 @@ button {
         font-size: 14.4px;
     }
 
-    .module-header h1.h5,
-    .module-slides h1.h5 {
+    .module-header h1.h3,
+    .module-slides h1.h3 {
         font-size: 11.2px;
     }
 
-    .module-header h1.h6,
-    .module-slides h1.h6 {
+    .module-header h1.h4,
+    .module-slides h1.h4 {
         font-size: 8px;
     }
 
@@ -2795,13 +2795,13 @@ button {
         font-size: 12px;
     }
 
-    .module-header h1.h5,
-    .module-slides h1.h5 {
+    .module-header h1.h3,
+    .module-slides h1.h3 {
         font-size: 9.8px;
     }
 
-    .module-header h1.h6,
-    .module-slides h1.h6 {
+    .module-header h1.h4,
+    .module-slides h1.h4 {
         font-size: 7px;
     }
 
@@ -2869,7 +2869,7 @@ button {
     margin: 0 0 10px;
 }
 
-.m-title h6 {
+.m-title h4 {
     font-size: 11px;
     color: #1A1A1A;
     font-weight: 500;
@@ -3757,8 +3757,8 @@ a[rel~="gallery"]:hover {
 .post-content h2,
 .post-content h3,
 .post-content h4,
-.post-content h5,
-.post-content h6 {
+.post-content h3,
+.post-content h4 {
     margin: 30px 0 20px;
 }
 
@@ -3766,8 +3766,8 @@ a[rel~="gallery"]:hover {
 .post-content h2:first-child,
 .post-content h3:first-child,
 .post-content h4:first-child,
-.post-content h5:first-child,
-.post-content h6:first-child {
+.post-content h3:first-child,
+.post-content h4:first-child {
     margin-top: 0;
 }
 
@@ -3927,7 +3927,7 @@ a[rel~="gallery"]:hover {
     margin: 0 0 35px;
 }
 
-.widget .widget-title h6 {
+.widget .widget-title h4 {
     font-size: 10px;
     margin: 0;
 }
@@ -4406,10 +4406,10 @@ a[rel~="gallery"]:hover {
 .bg-dark .h3 > a,
 .bg-dark h4 > a,
 .bg-dark .h4 > a,
-.bg-dark h5 > a,
-.bg-dark .h5 > a,
-.bg-dark h6 > a,
-.bg-dark .h6 > a,
+.bg-dark h3 > a,
+.bg-dark .h3 > a,
+.bg-dark h4 > a,
+.bg-dark .h4 > a,
 .bg-gradient h1 > a,
 .bg-gradient .h1 > a,
 .bg-gradient h2 > a,
@@ -4418,10 +4418,10 @@ a[rel~="gallery"]:hover {
 .bg-gradient .h3 > a,
 .bg-gradient h4 > a,
 .bg-gradient .h4 > a,
-.bg-gradient h5 > a,
-.bg-gradient .h5 > a,
-.bg-gradient h6 > a,
-.bg-gradient .h6 > a,
+.bg-gradient h3 > a,
+.bg-gradient .h3 > a,
+.bg-gradient h4 > a,
+.bg-gradient .h4 > a,
 .module-dark h1 > a,
 .module-dark .h1 > a,
 .module-dark h2 > a,
@@ -4430,10 +4430,10 @@ a[rel~="gallery"]:hover {
 .module-dark .h3 > a,
 .module-dark h4 > a,
 .module-dark .h4 > a,
-.module-dark h5 > a,
-.module-dark .h5 > a,
-.module-dark h6 > a,
-.module-dark .h6 > a {
+.module-dark h3 > a,
+.module-dark .h3 > a,
+.module-dark h4 > a,
+.module-dark .h4 > a {
     color: #fff;
 }
 
@@ -4453,14 +4453,14 @@ a[rel~="gallery"]:hover {
 .bg-dark h4 > a:focus,
 .bg-dark .h4 > a:hover,
 .bg-dark .h4 > a:focus,
-.bg-dark h5 > a:hover,
-.bg-dark h5 > a:focus,
-.bg-dark .h5 > a:hover,
-.bg-dark .h5 > a:focus,
-.bg-dark h6 > a:hover,
-.bg-dark h6 > a:focus,
-.bg-dark .h6 > a:hover,
-.bg-dark .h6 > a:focus,
+.bg-dark h3 > a:hover,
+.bg-dark h3 > a:focus,
+.bg-dark .h3 > a:hover,
+.bg-dark .h3 > a:focus,
+.bg-dark h4 > a:hover,
+.bg-dark h4 > a:focus,
+.bg-dark .h4 > a:hover,
+.bg-dark .h4 > a:focus,
 .bg-gradient h1 > a:hover,
 .bg-gradient h1 > a:focus,
 .bg-gradient .h1 > a:hover,
@@ -4477,14 +4477,14 @@ a[rel~="gallery"]:hover {
 .bg-gradient h4 > a:focus,
 .bg-gradient .h4 > a:hover,
 .bg-gradient .h4 > a:focus,
-.bg-gradient h5 > a:hover,
-.bg-gradient h5 > a:focus,
-.bg-gradient .h5 > a:hover,
-.bg-gradient .h5 > a:focus,
-.bg-gradient h6 > a:hover,
-.bg-gradient h6 > a:focus,
-.bg-gradient .h6 > a:hover,
-.bg-gradient .h6 > a:focus,
+.bg-gradient h3 > a:hover,
+.bg-gradient h3 > a:focus,
+.bg-gradient .h3 > a:hover,
+.bg-gradient .h3 > a:focus,
+.bg-gradient h4 > a:hover,
+.bg-gradient h4 > a:focus,
+.bg-gradient .h4 > a:hover,
+.bg-gradient .h4 > a:focus,
 .module-dark h1 > a:hover,
 .module-dark h1 > a:focus,
 .module-dark .h1 > a:hover,
@@ -4501,14 +4501,14 @@ a[rel~="gallery"]:hover {
 .module-dark h4 > a:focus,
 .module-dark .h4 > a:hover,
 .module-dark .h4 > a:focus,
-.module-dark h5 > a:hover,
-.module-dark h5 > a:focus,
-.module-dark .h5 > a:hover,
-.module-dark .h5 > a:focus,
-.module-dark h6 > a:hover,
-.module-dark h6 > a:focus,
-.module-dark .h6 > a:hover,
-.module-dark .h6 > a:focus {
+.module-dark h3 > a:hover,
+.module-dark h3 > a:focus,
+.module-dark .h3 > a:hover,
+.module-dark .h3 > a:focus,
+.module-dark h4 > a:hover,
+.module-dark h4 > a:focus,
+.module-dark .h4 > a:hover,
+.module-dark .h4 > a:focus {
     color: #0443E0;
 }
 
@@ -4520,10 +4520,10 @@ a[rel~="gallery"]:hover {
 .bg-dark .h3,
 .bg-dark h4,
 .bg-dark .h4,
-.bg-dark h5,
-.bg-dark .h5,
-.bg-dark h6,
-.bg-dark .h6,
+.bg-dark h3,
+.bg-dark .h3,
+.bg-dark h4,
+.bg-dark .h4,
 .bg-dark blockquote,
 .bg-gradient h1,
 .bg-gradient .h1,
@@ -4533,10 +4533,10 @@ a[rel~="gallery"]:hover {
 .bg-gradient .h3,
 .bg-gradient h4,
 .bg-gradient .h4,
-.bg-gradient h5,
-.bg-gradient .h5,
-.bg-gradient h6,
-.bg-gradient .h6,
+.bg-gradient h3,
+.bg-gradient .h3,
+.bg-gradient h4,
+.bg-gradient .h4,
 .bg-gradient blockquote,
 .module-dark h1,
 .module-dark .h1,
@@ -4546,10 +4546,10 @@ a[rel~="gallery"]:hover {
 .module-dark .h3,
 .module-dark h4,
 .module-dark .h4,
-.module-dark h5,
-.module-dark .h5,
-.module-dark h6,
-.module-dark .h6,
+.module-dark h3,
+.module-dark .h3,
+.module-dark h4,
+.module-dark .h4,
 .module-dark blockquote {
     color: #fff;
 }
