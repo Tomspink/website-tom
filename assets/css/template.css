@@ -1929,6 +1929,7 @@ button {
 .inner-brand {
     vertical-align: middle;
     display: inline-block;
+    margin-top: 8px;
 }
 
 .inner-navigation {
@@ -2040,14 +2041,12 @@ button {
     height: 40px;
     background-image: url(../images/ts-logo-white.svg);
     background-size: auto 100%;
-    margin-top: 4px;
 }
 .brand-dark{
     width: 40px;
     height: 40px;
     background-image: url(../images/ts-logo-black.svg);
     background-size: auto 100%;
-    margin-top: 4px;
 }
 
 .header .inner-nav > ul > li > a {
