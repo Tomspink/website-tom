@@ -4315,6 +4315,7 @@ a[rel~="gallery"]:hover {
     margin-top: 50px;
     letter-spacing: 1px;
     float: left;
+    line-height: 26px;
 }
 
 .email-sml-right-footer{
