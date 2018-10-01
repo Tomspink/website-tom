@@ -3179,6 +3179,11 @@ button {
 }
 .portfolio-section{
     padding-top: 40px;
+    padding-bottom: 100px;
+}
+.portfolio-info-section{
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .filters {
     text-align: center;
@@ -3285,6 +3290,20 @@ button {
     text-align: left;
     padding-left: 40px;
 }
+.portfolio-description{
+    padding-right: 100px;
+}
+.port-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.port-list > li{
+    margin: 0px;
+}
+
+
 
 .portfolio-subtitle {
     color: #fff;
@@ -3598,6 +3617,16 @@ a[rel~="gallery"]:hover {
     .gallery-columns-9 .gallery-item {
         width: 100%;
     }
+    .portfolio-description{
+        padding-right: 0px;
+    }
+    .mobile-port-list{
+        margin-top: 40px;
+    }
+    .portfolio-section{
+        padding-bottom: 80px;
+    }
+
     
 }
 
