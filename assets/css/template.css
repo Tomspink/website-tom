@@ -4310,8 +4310,6 @@ a[rel~="gallery"]:hover {
     height: 23px;
     fill: #ffffff;
     transition: all .1s ease-in-out;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 .sm-svg-behance{
     width: 30px;
@@ -4323,6 +4321,22 @@ a[rel~="gallery"]:hover {
 .sm-svg-twitter{
     width: 25px;
     height: 21px;
+    fill: #ffffff;
+    transition: all .1s ease-in-out;
+}
+
+.sm-svg-fb{
+    width: 25px;
+    height: 23px;
+    fill: #ffffff;
+    transition: all .1s ease-in-out;
+     margin-right: 14px;
+    margin-left: 14px;
+}
+
+.sm-svg-insta{
+    width: 25px;
+    height: 23px;
     fill: #ffffff;
     transition: all .1s ease-in-out;
 }
