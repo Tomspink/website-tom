@@ -2993,10 +2993,28 @@ button {
 /** Profile image effects---------------------------------------- **/ 
 
 
+
+
 .profile-image-container{
-    width: calc(100% - 40px);
+    width: calc(100% - 14px);
     z-index: 0;
     position: relative;  
+}
+
+@media (max-width: 767px){
+    .profile-image-container{
+        width: calc(50% - 0px);
+        left: 25%;
+        
+    }
+}
+
+@media (max-width: 500px){
+.profile-image-container{
+        width: calc(100% - 0px);
+        left: 0px;
+        
+    }
 }
 
 .profile-img-size{
@@ -3037,17 +3055,8 @@ button {
 }
 
 
-@media (max-width: 767px){
-    .profile-image-container{
-        width: calc(100% - 20px);
-    }
-    .pp-image-size-shadow{
-        width: 315px;
-    }
-    .pp-img-shadow{
-        width: 315px;
-    }
-}
+
+
 
 @media (max-width: 767px) and (min-width: 576px){
     /**
